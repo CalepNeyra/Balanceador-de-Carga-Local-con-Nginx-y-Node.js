@@ -1,0 +1,12 @@
+{
+  "name": "servidor-en-nube",
+  "version": "1.0.0",
+  "description": "Servidor Web Node.js para Application Load Balancer en AWS",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
