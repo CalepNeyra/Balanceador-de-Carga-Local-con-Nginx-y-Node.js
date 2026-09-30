@@ -19,10 +19,16 @@ app.get('/', (req, res) => {
 // Endpoint de Health Check para el Application Load Balancer
 app.get('/health', (req, res) => {
   res.status(200).send('OK');
+
+  
 });
 
 app.listen(PORT, () => {
   console.log(`Servidor ${SERVER_NAME} escuchando en el puerto ${PORT}`);
+
+
 });
 
 // . 
+
+// Analizando obejtivo
